@@ -1,0 +1,1 @@
+INSERT INTO clients (id, email, name, last_name, created_date) VALUES ('8b750b46-9d08-4dd8-b3f0-ded65a3ede02', 'test_1@test.com', 'test1_name', 'test1_last_name', CURRENT_TIMESTAMP);
