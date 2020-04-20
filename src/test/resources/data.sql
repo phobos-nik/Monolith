@@ -1,1 +1,1 @@
-INSERT INTO clients (id, email, name, last_name, created_date) VALUES ('8b750b46-9d08-4dd8-b3f0-ded65a3ede02', 'test_1@test.com', 'test1_name', 'test1_last_name', CURRENT_TIMESTAMP);
+INSERT INTO clients (id, email, hashed_password, name, last_name, valid, created_date) VALUES ('8b750b46-9d08-4dd8-b3f0-ded65a3ede02', 'test_1@test.com', '$2y$04$mVRGUfT6OAF/n.FrgHTbx.c87l7dDGtzLh7lt5dYjNOWngRMs/ulm', 'test1_name', 'test1_last_name', TRUE, CURRENT_TIMESTAMP);
